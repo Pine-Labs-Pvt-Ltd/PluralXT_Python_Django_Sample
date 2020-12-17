@@ -1,0 +1,15 @@
+{% extends 'testmerchantapp/base.html' %}
+    {% block title %}
+        {{ title }}
+    {% endblock %}
+
+    {% block header %}
+        {{ title }}
+    {% endblock %}
+
+	{% block content %}
+    <form method="POST" class="post-form">
+        {{ form.as_p }}
+        <button type="submit" class="save btn btn-default">Submit</button>
+    </form>
+    {% endblock %}
