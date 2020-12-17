@@ -1,0 +1,13 @@
+{% extends 'testmerchantapp/base.html' %}
+
+{% block title %}
+	{{ title }}
+{% endblock %}
+
+{% block header %}
+    {{ title }}
+{% endblock %}
+    
+{% block content %}
+	{{ responseHTML | safe }}
+{% endblock %}
