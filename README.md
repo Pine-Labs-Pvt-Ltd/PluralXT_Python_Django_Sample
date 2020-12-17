@@ -1,0 +1,1 @@
+# PluralXT_Python_Django_Sample
